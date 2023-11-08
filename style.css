@@ -1,0 +1,146 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+   
+}
+
+.sidebar{
+    background-color: darksalmon;
+    width:20vw;
+    font-family:cursive;
+    padding-top:30px;
+  
+}
+.sidebar nav{
+    padding:15px;
+height: 100vh;
+  
+}
+.sidebar nav li{
+list-style: none;
+padding: 10px 0;
+font-size:25px ;
+
+}
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    /* background-color: khaki; */
+    width:80vw;
+}
+.about{
+    margin-top: 4px;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: cadetblue; */
+    height:60vh;
+    width:70vw;
+    margin:40px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devInfo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family:cursive;
+   font-weight:normal;
+
+}
+.hello{
+    font-size:xx-large;
+    color:cadetblue;
+}
+.buttons{
+    margin-top:10px;
+}
+.buttons button{
+   padding:7px;
+   border-radius:10px;
+   border-style:inset;
+   background-color: burlywood;
+}
+.buttons button:hover{
+ color:burlywood;
+ background-color: black;
+    }
+.devPic img{
+    width: 190px;
+    display:flex;
+    justify-content: space-around;
+}
+/* contact form */
+.contactform{
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 30px;
+padding-left: 38px;
+}
+.contactform h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:xx-large;
+    color:cadetblue;
+    
+}
+.contactform form div{
+    padding:8px 0 ;
+}
+#emailHelp{
+    font-size:12px;
+    color: rgba(53, 53, 53, 0.95);
+}
+#clientname{
+    border-color: cadetblue;  
+}
+#clientname:hover{
+    padding: 2px;
+}
+#clientemail{
+    border-color: cadetblue;  
+}
+#clientemail:hover{
+     padding: 2px;
+}
+#clientphone{
+    border-color: cadetblue;
+}
+#clientphone:hover{
+    padding: 2px;
+}
+#clientenquirie{
+    border-color: cadetblue;
+}
+#clientenquirie:hover{
+    padding: 2px;
+}
+
+button:hover{
+background-color:  rgb(170, 237, 239);
+border-radius:3px ;
+padding: 2px;
+}
+/* intro */
+.infoContainer{
+    padding-top: 5px;
+}
+h2{
+    color:cadetblue;
+}
+/* @media (max-width:1615px){
+    *{
+        background-color:greenyellow;
+    }
+    .sidebar{
+        {
+            transform: translate(-443px,0px);
+            position:absolute;
+        }
+    }
+} */
+
